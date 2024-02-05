@@ -19,7 +19,7 @@ function onNo(){
     NoCount = NoCount + 1;
     switch (NoCount) {
         case 1:
-            gif.src = "/why.gif"
+            gif.src = "./why.gif"
             yesBtn.classList.remove("w-12")
             yesBtn.classList.remove("h-10")
             yesBtn.classList.remove("text-xl")
@@ -34,7 +34,7 @@ function onNo(){
             noBtn.classList.add("text-lg")
             break;
         case 2:
-            gif.src = "/on no.gif"
+            gif.src = "./on no.gif"
             yesBtn.classList.remove("w-14")
             yesBtn.classList.remove("h-12")
             yesBtn.classList.remove("text-2xl")
@@ -49,7 +49,7 @@ function onNo(){
             noBtn.classList.add("text-md")
             break;
         case 3:
-            gif.src = "/no.gif"
+            gif.src = "./no.gif"
             yesBtn.classList.remove("w-16")
             yesBtn.classList.remove("h-14")
             yesBtn.classList.remove("text-3xl")
@@ -64,7 +64,7 @@ function onNo(){
             noBtn.classList.add("text-sm")
             break;
         case 4:
-            gif.src = "/on nono.gif"
+            gif.src = "./on nono.gif"
             yesBtn.classList.remove("w-20")
             yesBtn.classList.remove("h-16")
             yesBtn.classList.remove("text-4xl")
@@ -79,7 +79,7 @@ function onNo(){
             noBtn.classList.add("text-xs")
             break;
         case 5:
-            gif.src = "/on nonono.gif"
+            gif.src = "./on nonono.gif"
             yesBtn.classList.remove("w-24")
             yesBtn.classList.remove("h-20")
             yesBtn.classList.remove("text-5xl")
